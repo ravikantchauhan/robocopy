@@ -7,4 +7,5 @@ robocopy source_file_location desitnation_file_location /E /COPYALL /R:2 /W:10 /
 # /log:	Writes the status output to the log file (appends the output to the existing log file).
 # Example for copy all file from drive D (including sub folder ) to J drive
 
+
 **Robocopy D: J: /E /COPYALL /R:2 /W:10 /LOG:J:\copylog.txt**
